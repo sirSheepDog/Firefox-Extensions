@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Mouser Search",
+    "version": "1.0",
+    "description": "Adds Mouser to the list of search engines",
+    "author": "Chris Arrandale",
+	
+	"icons": {
+		"96": "MouserIcon96.png"
+	},
+
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "Mouser",
+            "search_url": "https://www.mouser.com/c/?q={searchTerms}",
+            "keyword": "@mouser",
+            "favicon_url": "https://www.mouser.com/favicon.ico",
+            "is_default": false,
+            "encoding": "UTF-8"
+        }
+    }
+}
